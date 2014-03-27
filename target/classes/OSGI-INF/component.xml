@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+	<!-- transformator Component -->
+	<scr:component enabled="true" immediate="true"
+		name="WeightLbsToKg">
+		<!--Component Class name -->
+		<implementation
+			class="de.tudarmstadt.dvs.myhealthassistant.myhealthhub.transformations.WeightLbsToKg" />
+		<!-- sampletransformator Service description -->
+		<service servicefactory="false">
+			<provide interface="de.tudarmstadt.dvs.myhealthassistant.myhealthhub.transformations.IWeightLbsToKg" />
+		</service>
+		<!-- Service registration properties -->
+		<property name="transformatorName" value="WeightLbsToKg" />
+		<property name="source" value="de.tudarmstadt.dvs.myHealthAssistant.Event.Reading.Physiological.Cardiovascular.ECG.ECGStream" />
+		<property name="destination" value="de.tudarmstadt.dvs.myHealthAssistant.Event.Reading.Physiological.Cardiovascular.ECG.HeartRate" />
+		<!-- PreferencesService dependency description -->
+		<reference name="android.content.Context" interface="android.content.Context"
+			cardinality="1..1" policy="dynamic"
+			bind="bindAndroidContext"
+			unbind="unbindAndroidContext" />
+	</scr:component>
+</components>  

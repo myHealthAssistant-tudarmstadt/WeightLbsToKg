@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Built-By: HieuHa
+Build-Jdk: 1.7.0_51
+Created-By: Maven Integration for Eclipse
+Bundle-ManifestVersion: 2
+Bundle-Name: WeightLbsToKg
+Bundle-SymbolicName: WeightLbsToKg
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Service-Component: OSGI-INF/component.xml
+Import-Package: de.tudarmstadt.dvs.myhealthassistant.myhealthhub.event
+ s,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.localmanage
+ ment,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.manageme
+ nt,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.notificati
+ ons,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.sensorrea
+ dings,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.events.sensorr
+ eadings.cardiovascular,de.tudarmstadt.dvs.myhealthassistant.myhealthh
+ ub.events.sensorreadings.environmental,de.tudarmstadt.dvs.myhealthass
+ istant.myhealthhub.events.sensorreadings.environmental.presence,de.tu
+ darmstadt.dvs.myhealthassistant.myhealthhub.events.sensorreadings.env
+ ironmental.raw,de.tudarmstadt.dvs.myhealthassistant.myhealthhub.event
+ s.sensorreadings.physical,de.tudarmstadt.dvs.myhealthassistant.myheal
+ thhub.events.status,android.support.v4.content,android.os.Parcel,andr
+ oid.os.Parcelable
+
