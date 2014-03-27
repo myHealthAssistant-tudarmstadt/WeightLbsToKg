@@ -16,13 +16,10 @@ The following software is required to build the application:
 - Java JDK SE 1.6
 - Android SDK + Eclipse or Android Developer Tools Bundle (ADT) 
 - Android 4.03(Sdk min version API15) to Android 4.2.2(Sdk version API17)
+- Maven Integration for Eclipse (m2e)
 	
 Run in Eclipse:
-- In Eclipse, go File-> Import-> Android-> Exiting Android Code into Workspace-> Next
-- Choose the root Directory as this Project -> Finish
-- Wait for Eclipse finish building all projects and confirm no errors
-- To run right click on project choose "run as" -> "Android Application"
-
+See the wiki site for information on how to run and configure this project
 
 License
 ==============
